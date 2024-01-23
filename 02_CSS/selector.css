@@ -1,0 +1,68 @@
+div[name=name2]{
+    background-color: rgb(0, 217, 255);
+}
+/*속성안의값이 특ㅈ정값*/
+div[name~=name1]{
+    background-color:yellowgreen
+    color( rgb(255, 255, 255) green blue)
+}
+/* 속성 값이 특정 값과 일치하거나 '-' 문자가 곧바로 해당값 뒤에 ㄸㅏ라붙는 객체선택 */
+div[class|=class]{
+    background-color: aqua;
+}
+
+div[name^=name]{
+background-color: greenyellow;
+
+}
+/*속성안의값이 특정값으로 끝나는 접미사객체선택*/
+div[class$=class]{
+background-color: bisque;
+}
+/*속성안의값이 특정값을 포함하는 객체선택*/
+div[class*=class]{
+background-color: plum;
+color: yellowgreen;
+}
+/* 자손선택자 */
+#test1 > h4 { 
+background-color: palevioletred;}
+#test1 > div > ui >li{}
+
+#div-test1 + div{
+background-color: aqua;
+color: blue;
+}
+
+#active-test, #hover-test {
+width: 300px;
+height: 300px;
+background-color: blue;
+color: orange;
+
+}
+#active-tsey:active{
+cursor: pointer;
+background-color: aqua;
+color: blueviolet;
+
+}
+
+#active-tsey:active{
+cursor: pointer;
+background-color: aqua;
+color: blueviolet;
+font: 40px bold;
+}
+input[type=checkbox]:checked{
+height: 20px;
+width: 20px;
+
+#userid , 
+}
+
+option:disabled
+{background-attachment: fixed;
+background-color: greenyellow;}
+
+input:disabled{background-color: aliceblue;}
